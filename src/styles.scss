@@ -217,6 +217,12 @@ img {
   width: 100%;
 }
 
+.chart_title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
 .chart-header {
   display: flex;
   align-items: center;
@@ -240,6 +246,19 @@ text-align: left;
 
 .coin__logo {
   width: 50px;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 14px;
+  margin: 20px 0 20px 100px;
+  
+}
+
+.info {
+  width: 33%;
+  text-align: left;
 }
 
 .dark-mode {
